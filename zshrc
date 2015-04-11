@@ -23,3 +23,10 @@ source "/usr/local/bin/virtualenvwrapper.sh"
 export LANG=en_US.UTF-8
 
 export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+#run rbenv on start
+eval "$(rbenv init -)"
+
+#alias'
+
+
