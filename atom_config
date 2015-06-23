@@ -1,0 +1,8 @@
+  core:
+    themes: [
+      "seti-ui"
+      "brahalla-syntax"
+    ]
+  editor:
+    invisibles: {}
+  whitespace: {}
