@@ -4,5 +4,8 @@
       "brahalla-syntax"
     ]
   editor:
-    invisibles: {}
-  whitespace: {}
+    invisibles:
+      {}
+    whitespace:
+      {}
+    fontSize: 14
