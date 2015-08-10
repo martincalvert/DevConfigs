@@ -27,6 +27,10 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 #run rbenv on start
 eval "$(rbenv init -)"
 
+#init the docker gudz
+eval "$(boot2docker shellinit 2> /dev/null)"
+
 #alias'
+alias gref='git show-ref $(current_branch)'
 
 
