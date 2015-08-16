@@ -1,2 +1,2 @@
-# Terminal-Configs
-My personal terminal configurations
+# Development-Configs
+My personal development tools configurations
