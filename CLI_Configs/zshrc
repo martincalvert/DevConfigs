@@ -7,7 +7,7 @@ ZSH_THEME="robbyrussell"
 DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git urltools web-search wd brew bundle common-aliases docker)
+plugins=(git urltools web-search wd brew bundle docker)
 
 # User configuration
 
@@ -25,5 +25,6 @@ eval "$(docker-machine env default 2> /dev/null)"
 
 #alias'
 alias gref='git show-ref $(current_branch)'
-
-
+alias zshrc='vi ~/.zshrc'
+alias G='grep'
+alias GG='git grep'
