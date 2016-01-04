@@ -1,11 +1,25 @@
   core:
     themes: [
-      "seti-ui"
+      "atom-dark-ui"
       "brahalla-syntax"
     ]
+    disabledPackages: [
+      "linter-ruby"
+      "pull-requests"
+    ]
   editor:
-    invisibles:
-      {}
-    whitespace:
-      {}
-    fontSize: 14
+    invisibles: {}
+    whitespace: {}
+    fontSize: 13
+  "tree-view":
+    hideVcsIgnoredFiles: true
+    showOnRightSide: true
+  "find-and-replace": {}
+  "linter-docker": {}
+  "linter-haml":
+    hamlLintExecutablePath: "/Users/USER/.rbenv/shims/haml-lint"
+  linter: {}
+  "linter-ruby": {}
+  "linter-rubocop":
+    command: "/Users/USER/.rbenv/versions/2.1.5/bin/rubocop"
+  "merge-conflicts": {}
