@@ -11,7 +11,7 @@ plugins=(git urltools web-search wd brew bundle docker)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/calvm022/Projects/Scripts"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/#{user}/Projects/Scripts"
 source $ZSH/oh-my-zsh.sh
 source "/usr/local/bin/virtualenvwrapper.sh"
 export LANG=en_US.UTF-8
@@ -21,10 +21,13 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 eval "$(rbenv init -)"
 
 #init the docker gudz
-eval "$(docker-machine env default 2> /dev/null)"
+. docker-machine-init
 
 #alias'
 alias gref='git show-ref $(current_branch)'
 alias zshrc='vi ~/.zshrc'
 alias G='grep'
 alias GG='git grep'
+alias gaeup='dev_appserver.py .'
+alias pipit='pip freeze'
+alias vactivate='. bin/activate'
